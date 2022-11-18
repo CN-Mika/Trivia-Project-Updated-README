@@ -39,7 +39,7 @@ In the components folder:
   - [ ] Included a return statement.
   - [ ] Exported the Question component at the end.
 
-  In App.js:
+In App.js:
 
 - [ ] Render an instance of `<Question />` inside the return statement of `<App />`.
 - [ ] Add a prop called `question` to `<Question />` with the value equal to "Question goes here".
@@ -143,9 +143,9 @@ Declare nextQuestion function:
 
 ### Goal 1: Add functionality to your "Next Question" button so that it renders the next question when clicked.
 
-- [ ] Make a prop on `<NextQuestion />` and pass the prop down to the button element in that component so that it calls the nextQuestion function when the button is clicked.
+- [ ] Create a prop on `<NextQuestion />` for your nextQuestion function.
+- [ ] Pass the prop down to the button element in that component so that it calls the nextQuestion function when the button is clicked.
 
-> ![Day 3.0 goal](https://i.imgur.com/fetraPF.png) >![Day 3.0 with bonus](https://i.imgur.com/GruM8g2.png)
 
 ### Goal 2: Add functionality so that when the user clicks on an answer choice, the correct answer appears.
 
@@ -157,7 +157,6 @@ Inside the Answer component:
   - HINT: Use props to pass down the state from `<App />`.
   - HINT: Don't forget to pass your `onClick` down as a prop as well.
 
-> ![Day 3.5 correct](https://i.imgur.com/HC7M6LH.png) >![Day 3.5 wrong](https://i.imgur.com/DWQu3bb.png)
 
 ## Extensions!
 
